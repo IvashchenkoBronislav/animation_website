@@ -7,6 +7,57 @@ body{
     position: fixed;
     z-index: 0;
     width: 100%;
-    height: 100%;
+    left: 0;
+    top: 0;
 }
 
+
+.wrapper{
+    
+}
+
+.up_bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+
+    .up_bg__row{
+        display: flex;
+        height: 100%;
+        width: 20%;
+        flex-direction: column;
+        .up_bg__collum{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background: black;
+            // animation: animationBg 1s linear;
+            flex-direction: column;
+            transition:1s;
+            &:hover{
+                background: transparent;
+                
+            }
+        }
+    }
+}
+
+
+@keyframes animationBg{
+    0%{
+        background: black;
+    }
+
+    50%{
+        background: transparent;
+    }
+
+    100%{
+        background: black;
+    }
+    
+}

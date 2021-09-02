@@ -1,5 +1,5 @@
 import '../scss/mine.scss'
 
-// document.querySelector('#')
+document.querySelectorAll('.up_bg__collum')
 
-console.log("Ghbdtn")
+console.log(document.querySelectorAll('.up_bg__collum'))
