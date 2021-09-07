@@ -38,26 +38,12 @@ body{
             // animation: animationBg 1s linear;
             flex-direction: column;
             transition:1s;
-            &:hover{
-                background: transparent;
-                
-            }
         }
     }
 }
-
-
-@keyframes animationBg{
-    0%{
-        background: black;
-    }
-
-    50%{
-        background: transparent;
-    }
-
-    100%{
-        background: black;
-    }
-    
+.transparent{
+    background-color:transparent !important;
 }
+
+
+
