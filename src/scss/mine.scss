@@ -37,12 +37,20 @@ body{
             background: black;
             // animation: animationBg 1s linear;
             flex-direction: column;
-            transition:1s;
+            transition:0s;
         }
     }
 }
 .transparent{
     background-color:transparent !important;
+}
+
+.content{
+    color: white;
+    font-size: 80px;
+    z-index: 4;
+    position: relative;
+    pointer-events:none;
 }
 
 
