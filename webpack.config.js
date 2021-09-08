@@ -40,6 +40,14 @@ module.exports = {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
                 type: 'asset/resource',
             },
+            {
+                test: /\.(mp4)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                  },
+                ],
+            },
             
             {
                 test: /\.(scss|css)$/,
