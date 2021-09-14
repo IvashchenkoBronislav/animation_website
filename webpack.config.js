@@ -37,17 +37,17 @@ module.exports = {
             },
 
             {
-                test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+                test: /\.(?:ico|gif|png|jpg|jpeg|mp4)$/i,
                 type: 'asset/resource',
             },
-            {
-                test: /\.(mp4)$/i,
-                use: [
-                  {
-                    loader: 'file-loader',
-                  },
-                ],
-            },
+            // {
+            //     test: /\.(mp4)$/i,
+            //     use: [
+            //       {
+            //         loader: 'file-loader',
+            //       },
+            //     ],
+            // },
             
             {
                 test: /\.(scss|css)$/,

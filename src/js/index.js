@@ -1,7 +1,7 @@
 import '../scss/mine.scss'
 import bgVideo from '../media/Tunnel.mp4'
 
-console.log(document.querySelector("#bg_video1").src)
+console.log(document.querySelector("#bg_video1"))
 document.querySelector("#bg_video1").src = bgVideo;
 
 let divBgList = document.querySelectorAll('div');
